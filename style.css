@@ -1,0 +1,87 @@
+body{
+    width: 900px;
+    background-color: rgb(240, 240, 240);
+    margin: 0 auto;
+}
+.darkMode{
+    background-color: rgba(0, 0, 0, 0.897);
+    color: white;
+}
+
+#co{
+    border: black solid 3px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 0px 75px 0px 75px;
+}
+#para{
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px black solid;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.int{
+    font-family: cursive;
+}
+table,
+td{ 
+        border: 1px solid black;
+        width: 40%;
+        margin: 0 auto;
+}
+    thead,
+    tfoot {
+        background-color: rgb(230, 126, 8);
+        color: #fff;
+        width: 75%;
+        margin: 0 auto;
+
+}
+#Experience, #Présentation, #Compétences
+{
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#nav
+{     
+    padding: 7px 0px 7px 0px;
+    margin-bottom: 25px;
+    font-size: 0;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;            
+    border: black 2px solid;
+}
+#nav li
+{          
+    display: inline;  
+    font-size: 15px;
+    list-style-type: none; 
+    margin: 0px 15px 0px 15px; 
+    border: black 3px solid; 
+    padding: 7px 15px 10px 15px ;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+    #nav a:link
+    {     
+    color: red;    
+    padding: 20px 1px 4px 10px; 
+}  
+    #nav a:visited
+{     
+    color: red; 
+}
+h3{
+    text-align: center;
+}
+h4{
+    border-bottom: darkblue solid 2px;
+    width: 35%;
+    margin: 0 auto;
+}
