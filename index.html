@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Page Perso</title>
 </head>
@@ -10,18 +11,16 @@
 
 
 
-    <div id="nav">
-        <button id="but" onclick="darkMode()">Fond</button>
-        <nav>
-            <ul>
-                <li><a href="">Accueil</a></li>
-                <li><a href="#Présentation">Présentation</a></li>
-                <li><a href="#Compétences">Compétences</a></li>
-                <li><a href="#Cequejaiappris">Ce que j'ai appris</a></li>
-            </ul>
-        </nav>
-    </div>
-    
+    <nav class="navbar navbar-light bg-dark">
+        <form class="container-fluid justify-content-start">
+        <button class="btn btn-outline-success me-2 bg-light" type="button"><a href="https://corentinkowalsky.github.io/Accueil_Projet_Fil_Rouge/">Accueil</a></button>
+            <button class="btn btn-sm btn-outline-secondary bg-light" type="button"><a href="#Présentation">Présentation</a></button>
+            <button class="btn btn-sm btn-outline-secondary bg-light" type="button"><a href="#Compétences">Compétences</a></button>
+        <button class="btn btn-sm btn-outline-secondary bg-light" type="button" ><a href="#Cequejaiappris">Ce que j'ai appris</a></button>
+        <button class="btn btn-outline-success me-2 bg-light" onclick="darkMode()" type="button">Changement de thème</button>
+
+        </form>
+    </nav>
 
 <div id="co">
     <h2>Projet fil rouge Artis</h2>
@@ -87,6 +86,7 @@
     <p>J'ai réaliser plusieurs petit projet pour m'entrainer</p>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </body>
 </html>
