@@ -1,0 +1,111 @@
+body{
+    width: 900px;
+    background-image: url(images/fond_.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: white;
+}
+
+.darkMode{
+    background-image: url(images/fond.jpg);
+    color: black;
+}
+
+#co{
+    border: black solid 3px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 0px 75px 0px 75px;
+}
+#para{
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    background-color:  rgba(160, 160, 160, 0.897);
+    margin-top: 15px;
+    font-size: 17px;
+    padding: 15px 0px 15px 0px;
+}
+.int{
+    font-family: cursive;
+}
+table,
+td{ 
+        border: 1px solid black;
+        width: 70%;
+        margin: 0 auto;
+        color: black;
+}
+    thead,
+    tfoot {
+        background-color: rgb(230, 126, 8);
+        width: 75%;
+        margin: 0 auto;
+
+}
+#btSecret{
+display: none;
+}
+#Experience, #Présentation, #Compétences
+{
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#nav
+{     
+    
+    padding: 7px 0px 7px 0px;
+    margin-bottom: 25px;
+    font-size: 0;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;            
+    border: black 2px solid;
+    border-radius: 15px;
+    background-color: rgba(131, 130, 130, 0.897);
+}
+#nav li
+{          
+    display: inline;  
+    font-size: 15px;
+    list-style-type: none; 
+    margin: 0px 15px 0px 15px; 
+    border: black 1px solid; 
+    padding: 7px 15px 12px 15px ;
+    background-color: rgba(179, 179, 179, 0.733);
+}
+    #nav a:link
+    {     
+    color: black;    
+    padding: 20px 1px 4px 10px; 
+}  
+    #nav a:visited
+{     
+    color: red; 
+}
+
+h3{
+    text-align: center;
+}
+h4{
+    border-bottom: darkblue solid 2px;
+    width: 35%;
+    margin: 0 auto;
+}
+#Project{
+    margin-top: 15px;
+    float: left;
+    width: 35%;
+    background-color: rgba(160, 160, 160, 0.897);
+}
+#aquis{
+    margin-top: 15px;
+    float: right;
+    padding-left: -200px;
+    text-align: center;
+    background-color: rgba(160, 160, 160, 0.897);
+}
