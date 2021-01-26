@@ -1,5 +1,5 @@
 body{
-    width: 900px;
+
 
     margin: 0 auto;
     color: white;
@@ -14,11 +14,14 @@ body{
     margin-top: 25px;
     width: 35%;
 }
-#para{
 
-}
 .int{
     font-family: cursive;
+}
+#astro{
+    margin: 0 auto;
+    background-image: url(images/univers-création.jpg);
+    background-repeat: no-repeat;
 }
 table,
 td{ 
@@ -29,10 +32,10 @@ td{
 }
     thead,
     tfoot {
-        background-color: rgb(230, 126, 8);
+        background-color: rgb(2, 77, 175);
         width: 75%;
         margin: 0 auto;
-
+        color: aliceblue;
 }
 #btSecret{
 display: none;
