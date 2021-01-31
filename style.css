@@ -1,20 +1,21 @@
 body{
-
-
     margin: 0 auto;
     color: white;
 }
-
-.darkMode{
-    background-image: url(images/fond.jpg);
-    color: black;
+.btSecret{
+    display: none;
 }
 
 #co{
     margin-top: 25px;
     width: 35%;
 }
-
+#but{
+    margin: 0 auto;
+}
+#first, #second{
+    border: black 3px solid;
+}
 .int{
     font-family: cursive;
 }
@@ -41,24 +42,19 @@ td{
         margin: 0 auto;
         color: aliceblue;
 }
-.btSecret{
-    display: none;
-}
 
 h3{
     text-align: center;
 }
-
+#foot{
+    background-color: black;
+}
 #Project{
-    margin-top: 15px;
-    float: left;
-    width: 35%;
     background-color: rgba(160, 160, 160, 0.897);
+    margin: 0 auto;
 }
 #aquis{
-    margin-top: 15px;
-    float: right;
-    padding-left: -200px;
+    margin: 0 auto;
     text-align: center;
     background-color: rgba(160, 160, 160, 0.897);
 }
