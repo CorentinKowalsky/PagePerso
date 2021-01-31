@@ -17,8 +17,6 @@
             <button class="btn btn-sm btn-outline-secondary bg-light" type="button"><a href="#Présentation">Présentation</a></button>
             <button class="btn btn-sm btn-outline-secondary bg-light" type="button"><a href="#Compétences">Compétences</a></button>
         <button class="btn btn-sm btn-outline-secondary bg-light" type="button" ><a href="#Cequejaiappris">Ce que j'ai appris</a></button>
-        <button class="btn btn-outline-success me-2 bg-light" onclick="darkMode()" type="button">Changement de thème</button>
-
         </form>
     </nav>
 
@@ -38,29 +36,24 @@
 
 <h4>Centres d'intéret</h4>
 <div class="int">
-        <p>Mes centres d'intérets sont les<br /> Jeux vidéo, L'astronomie, les clopes électroniques et l'informatique.</p></div>
-
-
+        <p>Mes centres d'intérets sont les<br /> Jeux vidéo, L'astronomie et l'informatique.</p></div>
 </section>
-
-<div class="bg-dark text-center w-100">
-  <h4>Mon jeux préférer du moment.</h4>
-  <button type="button"  class="btn btn-outline-danger" id="bonj" onclick="btSecret()"  >🔻</button>
-  <article>
-  <div id="first" class="bg-primary w-100 float-start">
-    <h2 class="">Rocket League</h2>
-    <img src="images/rocket150.jpg" alt="">
-  </div>
-
-</article>
+<section id="but" class="bg-primary text-center w-50">
+    <h4>Mon projet</h4>
+<p>-Devenir développeur web.</p>
+<p>-Poursuivre vers une formation de développeur web JS.</p>
+<p>-Apprendre à utiliser du JavaScript afin de créer des site web plus dynamiques.</p>
+<p>-Continuer à prendre en compétences en suivant des cours en ligne et en m'entrainant.</p>
+</section>
+<div class="w-25   " id="aquis">
+  <h3><a id="Cequejaiappris">Ce que j'ai appris</a></h3>
+<p>J'ai appris à faire un site HTML/CSS.</p>
+<p>J'ai appris à mieux collaborer en équipe et à mieux m'investir dans un projet.</p>
+<p>J'ai réaliser plusieurs petit projet pour m'entrainer.</p>
 </div>
 
-<section id="astro" class="bg-dark text-center w-50 mt-5">
-<h4>Ce que j'aime dans l'astronomie</h4>
-  <p>Ce que j'aime dans l'astronomie c'est sa compexité et sa beauté j'aime bien en apprendre toujours un peut plus sur ce qui se passe au dessus de nous </p>
-</section>
 
-<h3><a id="Compétences" class="mt-3">Compétences</a></h3>
+<h3><a id="Compétences">Compétences</a></h3>
 <table class="table w-50">
     <thead>
       <tr>
@@ -83,11 +76,41 @@
 
     </tbody>
   </table>
+
+<div class="text-center bg-danger">
+        <h4>Passion</h4>
+<p>Jeux, astronomie et le numérique</p>
+</div>
+<div class="bg-secondary text-center w-100">
+  <h4>Mes jeux préférer. 🎮</h4>
+  <button type="button"  class="btn btn-outline-danger" id="bonj" onclick="btSecret()"  >🔻</button>
+  <article> 
+<div class=" d-inline-block w-100">
+  <div id="first" class="bg-primary w-50 float-start">
+    <h2 class="">Rocket League</h2>
+    <img src="images/rocket150.jpg">
+  </div>
+  <div id="second" class="bg-primary pt-2 w-50 float-start">
+    <h2 class="">Skyrim V</h2>
+    <img src="images/Skyrim250.png">
+  </div>
+</div>
+</article>
+</div>
+
+<section id="astro" class="text-center w-50  mt-5">
+<h4>Ce que j'aime dans l'astronomie. 🪐</h4>
+  <p>Ce que j'aime dans l'astronomie c'est sa compexité et sa beauté j'aime bien en apprendre toujours un peut plus sur ce qui se passe au dessus de nous. </p>
+
+  <p>Je m'intéresse beaucoup à l'histoire des planètes ce par quoi elles sont passés comment elles ont été crées.</p>
+</section>
+
 </main>
 <footer>
-<div class="w-25" id="Project">
+
+  <div class="w-25" id="Project">
     <h3>Projet</h3>
-<ol>
+  <ol>
     <li><a href="https://corentinkowalsky.github.io/First-Pojecct/" target="blank">Voici mon premier pojet</a></li>
     <p>Ce que j'ai appris grâce à ce projet:<br/>
     À utiliser quelque div et quelque méthode pour placer du contenu.</p>
@@ -97,14 +120,11 @@
     <li><a href="https://corentinkowalsky.github.io/challenge_cameleons/" target="blank">Le fameux challenge caméléons</a></li>
     <p>Ce que j'ai appris grâce à ce projet:<br/>
         À travailler sur un projet demandé avec plus de détails que les précédent.</p>
-</ol>
-</div>
-<div class="w-50" id="aquis">
-        <h3><a id="Cequejaiappris">Ce que j'ai appris</a></h3>
-    <p>J'ai appris à faire un site HTML/CSS.</p>
-    <p>J'ai appris à mieux collaborer en équipe et à mieux m'investir dans un projet.</p>
-    <p>J'ai réaliser plusieurs petit projet pour m'entrainer</p>
-</div>
+  </ol>
+  </div>
+  
+
+
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 <script src="script.js"></script>
